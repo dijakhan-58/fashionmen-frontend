@@ -1,24 +1,25 @@
-# FashionMen 👔
+# FashionMen 
 
 A luxury men's fashion e-commerce website built with HTML, CSS, Bootstrap 5, and vanilla JavaScript.
 
-![FashionMen Banner](assets/banner6.jpg)
+<img width="1909" height="917" alt="image" src="https://github.com/user-attachments/assets/a6054548-e669-4c72-8a04-c09c0d17e959" />
+
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
-> Deploy via GitHub Pages or Netlify — [Add your link here]
+> https://fashionmen-frontend.netlify.app/
 
 ---
 
-## 📋 Overview
+##  Overview
 
 FashionMen is a fully responsive frontend e-commerce website for a premium men's fashion brand. It features curated collections including Groom Wear, Office Wear, Casual Wear, and Tehwar (Eid) Wear, with product detail pages, a shop page, an about page, and a contact page.
 
 ---
 
-## 🗂️ Pages
+##  Pages
 
 | Page | File | Description |
 |------|------|-------------|
@@ -33,7 +34,7 @@ FashionMen is a fully responsive frontend e-commerce website for a premium men's
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Responsive Design** — Mobile-first layout using Bootstrap 5 grid
 - **Video Hero Carousel** — Autoplay background videos with animated captions
@@ -46,7 +47,7 @@ FashionMen is a fully responsive frontend e-commerce website for a premium men's
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Usage |
 |------------|-------|
@@ -55,11 +56,11 @@ FashionMen is a fully responsive frontend e-commerce website for a premium men's
 | Bootstrap 5 | Grid system, navbar, carousel, utilities |
 | Font Awesome 6 | Icons (cart, eye, etc.) |
 | Google Fonts | Cormorant Garamond, Montserrat, Playfair Display |
-| Vanilla JavaScript | Image swap, navbar scroll effect, IntersectionObserver |
+
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 fashionmen-website/
@@ -88,38 +89,15 @@ fashionmen-website/
         └── vid1–4.mp4           # Showcase videos
 ```
 
----
 
-## 🚀 Getting Started
 
-### Run Locally
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/dijakhan-58/fashionmen-frontend.git
-
-# 2. Open in browser
-cd fashionmen-frontend
-open index.html
-```
-
-No build tools or dependencies needed — it's pure HTML/CSS/JS.
-
-### Deploy on GitHub Pages
-
-1. Go to your repo → **Settings** → **Pages**
-2. Set source to `main` branch, `/ (root)`
-3. Click **Save** — your site will be live at:
-   `https://dijakhan-58.github.io/fashionmen-frontend`
-
----
-
-## 🎨 Design System
+##  Design System
 
 | Token | Value |
 |-------|-------|
 | Primary Gold | `#c9a84c` |
-| Background | `#faf8f4` (cream) |
+| Background | `#fff (cream) |
 | Dark/Ink | `#111111` |
 | Body Font | Montserrat |
 | Heading Font | Cormorant Garamond |
@@ -127,7 +105,7 @@ No build tools or dependencies needed — it's pure HTML/CSS/JS.
 
 ---
 
-## 📸 Collections
+##  Collections
 
 - **Tehwar Wear** — Kurtas, shalwar kameez for Eid & festivals
 - **Groom Wear** — Barat & Valima sherwanis and suits
@@ -143,7 +121,7 @@ No build tools or dependencies needed — it's pure HTML/CSS/JS.
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational/portfolio purposes.
 
