@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FashionMen</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body style="font-family: &quot;Montserrat&quot;, sans-serif">
+    <header>
+      <!--navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">FashionMen</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center gap-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  Collections
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li>
+                    <a class="dropdown-item" href="shop.html">Tehwar Wear</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="index.html">Groom Wear</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="index.html">Office Wear</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+
+              <!-- Cart -->
+              <li class="nav-item position-relative">
+                <a class="nav-link" href="shop.html">
+                  <i class="fa-solid fa-bag-shopping fs-5"></i>
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+                  >
+                    0
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Carousel -->
+    <main>
+      <section>
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <video class="w-100" autoplay muted loop playsinline>
+                <source
+                  src="//www.dynastyfabrics.com/cdn/shop/videos/c/vp/8f21c795f3d64ab38d2b2ad47bbd9a1c/8f21c795f3d64ab38d2b2ad47bbd9a1c.HD-720p-4.5Mbps-62450624.mp4?v=0"
+                />
+              </video>
+              <div
+                class="carousel-caption d-flex flex-column justify-content-center"
+              >
+                <h1 class="fw-bold">Luxury Fashion</h1>
+                <p>Redefining Men's Style & Elegance</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <video class="w-100" autoplay muted loop playsinline>
+                <source
+                  src="//www.dynastyfabrics.com/cdn/shop/videos/c/vp/591f525bf59e4eda958b8558a3d4cab7/591f525bf59e4eda958b8558a3d4cab7.HD-720p-4.5Mbps-40840581.mp4?v=0"
+                />
+              </video>
+              <div
+                class="carousel-caption d-flex flex-column justify-content-center"
+              >
+                <h1 class="fw-bold">Premium Groom Wear</h1>
+                <p>Designed for Your Big Day</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories -->
+      <section class="py-5">
+        <div class="container">
+          <h2 class="section-title">Featured Categories</h2>
+          <div class="row g-4">
+            <div class="col-md-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/shirts.jpg" alt="Shirts" />
+                <div class="card-body text-center"><h5>Shirts</h5></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/shoes12.jpg" alt="Shoes" />
+                <div class="card-body text-center"><h5>Shoes</h5></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/jackets.jpg" alt="Jackets" />
+                <div class="card-body text-center"><h5>Jackets</h5></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/aces.jpg" alt="Accessories" />
+                <div class="card-body text-center"><h5>Accessories</h5></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trending Products -->
+      <section class="py-5 bg-light">
+        <div class="container">
+          <h2 class="section-title">Trending Products</h2>
+          <div class="row g-4">
+            <div class="col-md-3">
+              <div class="card product-card shadow-sm">
+                <img src="assets/cas1.jpg" />
+                <div class="card-body text-center">
+                  <h6>Slim Fit Shirt</h6>
+                  <p class="text-muted">$79</p>
+                  <a href="shirt.html" class="btn btn-dark btn-sm w-100"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card product-card shadow-sm">
+                <img src="assets/sneakers.jpg" alt="Product" />
+                <div class="card-body text-center">
+                  <h6>Leather Sneakers</h6>
+                  <p class="text-muted">$149</p>
+                  <a href="shoes.html" class="btn btn-dark btn-sm w-100"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card product-card shadow-sm">
+                <img src="assets/coat.jpg" alt="Product" />
+                <div class="card-body text-center">
+                  <h6>Wool Overcoat</h6>
+                  <p class="text-muted">$399</p>
+                  <a href="woolencoat.html" class="btn btn-dark btn-sm w-100"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card product-card shadow-sm">
+                <img src="assets/acce.jpg" alt="Product" />
+                <div class="card-body text-center">
+                  <h6>Accessories Kit</h6>
+                  <p class="text-muted">$120</p>
+                  <a href="acces.html" class="btn btn-dark btn-sm w-100"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Groom Collection -->
+      <section class="py-5">
+        <div class="container">
+          <div
+            class="banner"
+            style="background-image: url(&quot;assets/banner6.jpg&quot;)"
+          >
+            <div class="banner-overlay">Groom Collection</div>
+          </div>
+          <div class="row g-4 mt-3">
+            <div class="col-md-6 col-lg-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/whitegold.jpg" alt="Barat Dress" />
+                <div class="card-body text-center"><h5>Barat Dress</h5></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/grrom.jpg" alt="Valima Dress" />
+                <div class="card-body text-center"><h5>Valima Dress</h5></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/indian.jpg" alt="Barat Dress" />
+                <div class="card-body text-center"><h5>Barat Dress</h5></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/4 piece.jpg" alt="Valima Dress" />
+                <div class="card-body text-center"><h5>Valima Dress</h5></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Office Collection -->
+      <section class="py-5 bg-light">
+        <div class="container">
+          <div
+            class="banner"
+            style="background-image: url(&quot;assets/off.jpg&quot;)"
+          >
+            <div class="banner-overlay">Office Collection</div>
+          </div>
+          <div class="row g-4 mt-3">
+            <div class="col-md-6 col-lg-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/formal.jpg" alt="Formal Shirts" />
+                <div class="card-body text-center"><h5>Formal Shirts</h5></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/3piece.jpg" alt="Formal Shirts" />
+                <div class="card-body text-center"><h5>Formal Suits</h5></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/cool blazer.webp" alt="Blazers" />
+                <div class="card-body text-center"><h5>Blazers</h5></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Casual Collection -->
+      <section class="py-5">
+        <div class="container">
+          <div
+            class="banner"
+            style="background-image: url(&quot;assets/cas4.jpg&quot;)"
+          >
+            <div class="banner-overlay">Casual Collection</div>
+          </div>
+          <div class="row g-4 mt-3">
+            <div class="col-md-6 col-lg-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/t-shirt.jpg" alt="T-Shirts" />
+                <div class="card-body text-center"><h5>T-Shirts</h5></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/pants.jpg" alt="pant" />
+                <div class="card-body text-center"><h5>Pants</h5></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card category-card shadow-sm">
+                <img src="assets/jeans.jpg" alt="Jeans" />
+                <div class="card-body text-center"><h5>Jeans</h5></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- reviews -->
+      <section class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Watch. Click. Shop!</h2>
+
+          <div class="row g-3">
+            <!-- Card 1 -->
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="video-card position-relative">
+                <div
+                  class="views-badge position-absolute top-0 start-0 m-2 bg-dark text-white px-2 py-1 rounded"
+                >
+                  <i class="fa-solid fa-eye"></i> 9k
+                </div>
+                <video class="w-100" autoplay muted loop playsinline>
+                  <source src="assets/video/vid1.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="video-card position-relative">
+                <div
+                  class="views-badge position-absolute top-0 start-0 m-2 bg-dark text-white px-2 py-1 rounded"
+                >
+                  <i class="fa-solid fa-eye"></i> 10k
+                </div>
+                <video class="w-100" autoplay muted loop playsinline>
+                  <source src="assets/video/vid2.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="video-card position-relative">
+                <div
+                  class="views-badge position-absolute top-0 start-0 m-2 bg-dark text-white px-2 py-1 rounded"
+                >
+                  <i class="fa-solid fa-eye"></i> 100k
+                </div>
+                <video class="w-100" autoplay muted loop playsinline>
+                  <source src="assets/video/vid3.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="video-card position-relative">
+                <div
+                  class="views-badge position-absolute top-0 start-0 m-2 bg-dark text-white px-2 py-1 rounded"
+                >
+                  <i class="fa-solid fa-eye"></i> 250k
+                </div>
+                <video class="w-100" autoplay muted loop playsinline>
+                  <source src="assets/video/vid4.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Collection Banner -->
+      <section
+        class="py-5 text-dark text-center"
+        style="background-color: #b0b0b0; position: relative"
+      >
+        <div class="container">
+          <h2 class="fw-bold mb-3">New Season Collection</h2>
+          <p class="mb-4 fs-5">Luxury designs for the modern gentleman</p>
+          <a href="shop.html" class="btn btn-dark btn-lg fw-bold px-5 py-3"
+            >Explore Now</a
+          >
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="luxury-footer py-5">
+      <div class="container">
+        <div class="row g-4 text-center text-md-start">
+          <div class="col-md-4">
+            <h5>FashionMen</h5>
+            <p>Premium men's fashion brand.</p>
+          </div>
+          <div class="col-md-2">
+            <h6>Links</h6>
+            <a class="footer-link" href="index.html">Home</a>
+            <a class="footer-link" href="shop.html">Shop</a>
+            <a class="footer-link" href="contact.html">Contact</a>
+          </div>
+          <div class="col-md-6">
+            <h6>Newsletter</h6>
+            <form class="d-flex gap-2 flex-column flex-sm-row">
+              <input class="form-control" placeholder="Email" />
+              <button class="btn btn-gold rounded-pill">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="text-center mt-4 small">
+          © 2025 FashionMen. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>

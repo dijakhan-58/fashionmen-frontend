@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - FashionMen</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body style="font-family: 'Montserrat', sans-serif">
+    <!--navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">FashionMen</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <!-- dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Collections
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li>
+                  <a class="dropdown-item" href="shop.html">Tehwar Wear</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="index.html">Groom Wear</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="index.html">Office Wear</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+            <!-- Cart -->
+            <li class="nav-item position-relative">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-bag-shopping fs-5"></i>
+                <span
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+                >
+                  0
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Banner -->
+    <header class="contact-header">
+      <h1>Contact Us</h1>
+    </header>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-0 shadow rounded overflow-hidden">
+          <div
+            class="col-md-6 d-none d-md-block"
+            style="
+              background: url('assets/ban.png') center/cover no-repeat;
+              min-height: 500px;
+            "
+          ></div>
+
+          <!-- Right Contact Form Column -->
+          <div class="col-md-6 bg-white p-5">
+            <h2 class="fw-bold mb-4" style="color: #111">Get in Touch</h2>
+            <p class="mb-4 text-muted">
+              We’d love to hear from you! Send us a message or reach out
+              directly.
+            </p>
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button
+                    type="submit"
+                    class="btn btn-dark w-100"
+                    style="background-color: #111; color: #d4af37"
+                  >
+                    Send Message
+                  </button>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#paymentModal"
+                >
+                  Contact & Pay
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Map -->
+    <section class="py-5 map-container">
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.123456789!2d67.123456!3d24.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33abcdef12345%3A0xabcdef123456789!2sFashionMen!5e0!3m2!1sen!2s!4v1700000000000"
+          allowfullscreen=""
+        >
+        </iframe>
+      </div>
+    </section>
+    <!-- payment -->
+    <div
+      class="modal fade"
+      id="paymentModal"
+      tabindex="-1"
+      aria-labelledby="paymentModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="paymentModalLabel">Payment Details</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Cardholder Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="John Doe"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="cardNumber" class="form-label">Card Number</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="cardNumber"
+                  placeholder="1234 5678 9012 3456"
+                />
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="expiry" class="form-label">Expiry Date</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="expiry"
+                    placeholder="MM/YY"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="cvv" class="form-label">CVV</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cvv"
+                    placeholder="123"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="amount" class="form-label">Amount</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="amount"
+                  placeholder="$199"
+                />
+              </div>
+              <button type="submit" class="btn btn-dark w-100">Pay Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="luxury-footer py-5">
+      <div class="container">
+        <div class="row g-4 text-center text-md-start">
+          <div class="col-md-4">
+            <h5>FashionMen</h5>
+            <p>Premium men's fashion brand.</p>
+          </div>
+          <div class="col-md-2">
+            <h6>Links</h6>
+            <a class="footer-link" href="index.html">Home</a>
+            <a class="footer-link" href="shop.html">Shop</a>
+            <a class="footer-link" href="contact.html">Contact</a>
+          </div>
+          <div class="col-md-6">
+            <h6>Newsletter</h6>
+            <form class="d-flex gap-2 flex-column flex-sm-row">
+              <input class="form-control" placeholder="Email" />
+              <button class="btn btn-gold rounded-pill">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="text-center mt-4 small">
+          © 2025 FashionMen. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
